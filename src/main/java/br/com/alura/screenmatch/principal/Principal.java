@@ -81,6 +81,8 @@ public class Principal {
         if(episodioBuscado.isPresent()) {
             System.out.println("Episodio encontrado!");
             System.out.println("Temporada: " + episodioBuscado.get().getTemporada());
+            System.out.println("Episodio: " + episodioBuscado.get().getNumeroEpisodio());
+            System.out.println("Nome do episodio encontrado: " + episodioBuscado.get().getTitulo());
         } else {
             System.out.println("EPISODIO NAO ENCONTRADO!");
         }
